@@ -93,6 +93,7 @@ function getFibArray(n) {
 console.log(getFibArray(16));
 
 console.log("10 задание:");
+
 function isSumLess(num) {
   var sum = 0;
   var arr = String(num).split('');
