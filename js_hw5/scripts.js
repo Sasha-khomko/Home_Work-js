@@ -45,15 +45,27 @@ console.log(isEven(4));
 console.log(isEven(7));
 
 console.log("6 задание:");
-let arr = [1, 4, 5, 6, 2, 7];
-var newArr = [];
-for (var i = 0; i <= arr.length; i++) {
-	if (isEven(arr[i])) {
-		newArr.push(arr[i]);
-	}
+// let arr = [1, 4, 5, 6, 2, 7];
+// var newArr = [];
+// for (var i = 0; i <= arr.length; i++) {
+// 	if (isEven(arr[i])) {
+// 		newArr.push(arr[i]);
+// 	}
+// }
+
+// console.log(newArr)
+
+function arrEven(arr){
+  let newArr = [];
+  for(let i = 0; i < arr.length; i++){
+    if (isEven(arr[i])){
+      newArr.push(arr[i])
+    }
+  }
+  return newArr;
 }
 
-console.log(newArr)
+console.log(arrEven([1, 2, 2, 3, 4, 4, 1, 21, 32, 6]));
 
 console.log("7 задание:");
 let symbol = prompt('символ');
