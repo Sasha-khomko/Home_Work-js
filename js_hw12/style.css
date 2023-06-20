@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    width: 400px;
+}
+
+input {
+    height: 30px;
+    padding-left: 5px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.send {
+    height: 30px;
+    border: none;
+    background: green;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.item {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.item p {
+    height: 30px;
+    padding-left: 5px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.edit {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background: blue;
+    color: #fff;
+
+}
+
+.remove {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background: red;
+    color: #fff;
+}
